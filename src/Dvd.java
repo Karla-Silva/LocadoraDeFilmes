@@ -60,4 +60,16 @@ legenda(boolean ligarDesligar) : apenas atualiza a variável possuiLegenda
     public void legenda(boolean ligarDesligar){
         //apenas atualiza a variável possuiLegenda
     }
+
+    @Override
+    public String toString() {
+        return "Dvd{" +
+                "codigo='" + getCodigo() + '\'' +
+                ", preco=" + getPreco() +
+                ", nome='" + getNome() + '\'' +
+                ", idioma='" + idioma + '\'' +
+                ", possuiLegenda=" + possuiLegenda +
+                ", idiomaLegenda='" + idiomaLegenda + '\'' +
+                '}';
+    }
 }

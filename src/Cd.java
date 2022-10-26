@@ -45,7 +45,7 @@ public class Cd extends Midia{
                 "codigo='" + getCodigo() + '\'' +
                 ", preco=" + getPreco() +
                 ", nome='" + getNome() + '\'' +
-                "artista='" + artista + '\'' +
+                ", artista='" + artista + '\'' +
                 ", quantidadeFaixas=" + quantidadeFaixas +
                 '}';
     }
