@@ -6,4 +6,5 @@ Essa classe deve conter método pegarMidiaAleatoria() que devolve uma midia já 
 
 Esse classe deve conter método assisitirFilme(Dvd dvd) e chamar os dois métodos de legenda
      */
+
 }
