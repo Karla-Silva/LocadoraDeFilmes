@@ -61,4 +61,5 @@ public class Dvd extends Midia {
                 ", idiomaLegenda='" + idiomaLegenda + '\'' +
                 '}';
     }
+
 }
