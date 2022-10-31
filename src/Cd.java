@@ -43,7 +43,7 @@ public class Cd extends Midia {
 
     @Override
     public String toString() {
-        return "Cd{" +
+        return "Cd {" +
                 "codigo='" + getCodigo() + '\'' +
                 ", preco=" + getPreco() +
                 ", nome='" + getNome() + '\'' +
