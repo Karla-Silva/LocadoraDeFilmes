@@ -10,9 +10,9 @@ public class DoacaoMidia {
         Midia midia3 = new Cd("3",39.90,"Nevermind","Nirvana", 12);
         Midia midia4 = new Dvd("4", 22.95, "Ratatouille", "Inglês", true, "Português");
 
-        int midiaAleatória = gerador.nextInt(4);
+        int midiaAleatoria = gerador.nextInt(4);
 
-        switch (midiaAleatória) {
+        switch (midiaAleatoria) {
             case 0:
                 return midia1;
             case 1:
