@@ -1,5 +1,3 @@
-package GIT.FinalProject.src;
-
 public class Cd extends Midia {
     private String artista;
     private int quantidadeFaixas;

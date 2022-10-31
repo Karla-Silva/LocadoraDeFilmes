@@ -1,5 +1,3 @@
-package GIT.FinalProject.src;
-
 public class Dvd extends Midia {
     private String idioma;
     private boolean possuiLegenda;

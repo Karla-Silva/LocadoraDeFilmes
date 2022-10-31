@@ -1,5 +1,3 @@
-package GIT.FinalProject.src;
-
 public abstract class Midia {
     private String codigo;
     private Double preco;
