@@ -1,18 +1,6 @@
-public class Dvd extends Midia{
-    /*
+package GIT.FinalProject.src;
 
-Atributos:
-idioma : String
-possuiLegenda : boolean
-idiomaLegenda : String
-
-Métodos:
-sobrescrever darPlay(): exibir a mensagem "filme iniciado"
-construtor(todos os argumentos)
-get() e set()
-legenda(boolean ligar, String idioma) : liga a legenda e atualiza o idioma da legenda
-legenda(boolean ligarDesligar) : apenas atualiza a variável possuiLegenda
-     */
+public class Dvd extends Midia {
     private String idioma;
     private boolean possuiLegenda;
     private String idiomaLegenda;
@@ -32,7 +20,7 @@ legenda(boolean ligarDesligar) : apenas atualiza a variável possuiLegenda
         this.idioma = idioma;
     }
 
-    public boolean isPossuiLegenda() {
+    public boolean getPossuiLegenda() {
         return possuiLegenda;
     }
 
@@ -49,21 +37,22 @@ legenda(boolean ligarDesligar) : apenas atualiza a variável possuiLegenda
     }
 
     @Override
-    public void darPlay(){
+    public void darPlay() {
         System.out.println("Filme iniciado");
     }
 
-    public void legenda(boolean ligar, String idioma){
-        //liga a legenda e atualiza o idioma da legenda
+    public void legenda(boolean ligar, String idioma) {
+        setPossuiLegenda(ligar);
+        setIdiomaLegenda(idioma);
     }
 
-    public void legenda(boolean ligarDesligar){
-        //apenas atualiza a variável possuiLegenda
+    public void legenda(boolean ligarDesligar) {
+       setPossuiLegenda(ligarDesligar);
     }
 
     @Override
     public String toString() {
-        return "Dvd{" +
+        return "Dvd {" +
                 "codigo='" + getCodigo() + '\'' +
                 ", preco=" + getPreco() +
                 ", nome='" + getNome() + '\'' +

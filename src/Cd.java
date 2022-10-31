@@ -1,4 +1,6 @@
-public class Cd extends Midia{
+package GIT.FinalProject.src;
+
+public class Cd extends Midia {
     /*
     Atributos:
     artista : String
