@@ -1,7 +1,7 @@
-# Locadora de Filme - <Dev>ª de B³ Final Project (Módulo 02 - Programação Orientada a Objeto I)
+# Locadora de Filme - \<Dev>ª - B³/Let's Code (Ada) - Final Project (Módulo 02 - Programação Orientada a Objeto I)
 
 ## 💻 Sobre
-  Esta do curso de Java do programa <Dev>ª da B³ consiste no Módulo 02 - PROGRAMAÇÃO ORIENTADA A OBJETO I e entrega do
+  Esta etapa do curso BackEnd Java do programa \<Dev>ª - B³/Let's Code (Ada) consiste da partipação do Módulo 02 - PROGRAMAÇÃO ORIENTADA A OBJETO I e entrega do
 projeto Locadora de Vídeo. Este repositório contém o projeto final.
 
 ## 🧾 Escopo do Projeto
