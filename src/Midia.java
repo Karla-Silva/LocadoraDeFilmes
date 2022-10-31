@@ -1,16 +1,6 @@
+package GIT.FinalProject.src;
+
 public abstract class Midia {
-    /*
-Atributos:
-codigo : String
-preco : Double
-nome : String
-
-Métodos:
-darPlay()
-construtor(todos os argumentos)
-get() e set()
- */
-
     private String codigo;
     private Double preco;
     private String nome;
@@ -51,7 +41,7 @@ get() e set()
 
     @Override
     public String toString() {
-        return "Midia{" +
+        return "Midia {" +
                 "codigo='" + codigo + '\'' +
                 ", preco=" + preco +
                 ", nome='" + nome + '\'' +
