@@ -36,5 +36,6 @@ public class DoacaoMidia {
             dvd.legenda(ligarDesligar);
         }
         scanner.close();
+        System.out.println("Assistindo filme");
     }
 }
