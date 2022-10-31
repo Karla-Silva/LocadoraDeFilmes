@@ -17,4 +17,4 @@ mídias de forma aleatória.
 ## 📝 Ass
 Feito por:
 Mayara Carvalho [Entre em contato!](https://www.linkedin.com/in/mayara-carvalho-a68988250/)
-Thaís Moreira Teixeira [Entre em contato!](https://www.linkedin.com/in/karla-de-morais-silva-821296165/)
+Karla Silva [Entre em contato!](https://www.linkedin.com/in/karla-de-morais-silva-821296165/)
