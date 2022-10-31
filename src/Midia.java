@@ -35,7 +35,7 @@ public abstract class Midia {
         this.nome = nome;
     }
 
-    public void darPlay(){
+    public void darPlay() {
         System.out.println("Play");
     }
 

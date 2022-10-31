@@ -38,7 +38,7 @@ public class Dvd extends Midia {
 
     @Override
     public void darPlay() {
-        System.out.println("Filme iniciado");
+        System.out.println("Filme iniciado!");
     }
 
     public void legenda(boolean ligar, String idioma) {
